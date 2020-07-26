@@ -1,4 +1,18 @@
-type ItemType = {
+export enum ItemsMainCategoriesType {
+  WEAPONS = "weapons",
+  SHIELDS = "shields",
+  ARMORS = "armors",
+}
+
+export enum ItemCategoriesType {
+  WEAPON = "weapon",
+  SHIELD = "shield",
+  ARMOR = "armor",
+  GREAVE = "greave",
+  HELM = "helm",
+}
+
+export type ItemType = {
   name: string;
   category: string;
   icon: string;
